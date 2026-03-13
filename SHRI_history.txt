@@ -1,0 +1,8 @@
+Taken: PARECETAMOL
+Missed: COUGH
+Taken: PARECETAMOL
+Taken: COUGH
+Taken: COUGH
+Taken: COUGH
+Taken: COUGH
+Taken: PAIN

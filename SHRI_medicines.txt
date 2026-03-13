@@ -1,0 +1,3 @@
+PARECETAMOL 5 Night 8 Taken
+COUGH 400ML Afternoon 3 Taken
+PAIN 2 Afternoon 0 Taken
