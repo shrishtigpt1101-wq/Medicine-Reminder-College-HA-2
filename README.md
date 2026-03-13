@@ -66,16 +66,14 @@ Medicine updates
  -------------------
 
 MedicineReminder/
-│
-├── MedicineReminder.cpp        # Main program source code
-├── MedicineReminder.exe        # Compiled executable
-├── accounts.txt                # Stores user login credentials
-│
-├── <username>_profile.txt      # User health profile
-├── <username>_medicines.txt    # User medicine records
-├── <username>_history.txt      # User medicine history
-│
-└── Flowchart.txt               # System flow and design notes
+|-- MedicineReminder.cpp         # Main program source code
+|-- MedicineReminder.exe         # Compiled executable
+|-- accounts.txt                 # Stores user login credentials
+|-- Flowchart.txt                # System flow and design notes
+|-- Project Flowchart diagram.png # Visual flow (optional)
+|-- <username>_profile.txt       # User health profile
+|-- <username>_medicines.txt     # User medicine records
+|-- <username>_history.txt       # User medicine history
 
 
 # Compilation:
@@ -107,4 +105,3 @@ All user data will be automatically stored in the respective text files.
 2. Simple file-based storage
 3. Easy to run on any computer with a C++ compiler
 4. Helps users maintain regular medication habits
-
