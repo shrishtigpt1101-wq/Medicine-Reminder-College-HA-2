@@ -16,9 +16,9 @@ Users can also change their password from the Settings menu.
 3. Health Profile Management:
    
 Each user maintains a personal health profile including:
-    Age
-    Gender
-    Medical conditions
+- Age
+- Gender
+- Medical conditions
 Emergency contact information
 
 The profile is saved in:    <username>_profile.txt
@@ -26,12 +26,12 @@ The profile is saved in:    <username>_profile.txt
 3. Medicine Management Dashboard:
  
 Users can manage medicines through a dashboard where they can:
-    Add new medicines
-    Edit existing medicines
-    Delete medicines
-    View medicine schedules
-    Search for medicines
-    Sort medicines
+- Add new medicines
+- Edit existing medicines
+- Delete medicines
+- View medicine schedules
+- Search for medicines
+- Sort medicines
 Medicine data is stored in:     <username>_medicines.txt
 
 4. Medicine Schedule Tracking:
@@ -42,15 +42,15 @@ This helps users follow a daily medication routine.
 5. Medicine Status Tracking:
    
 Users can track their medication by marking it as:
-    Taken
-    Missed
+- Taken
+- Missed
 Every action is recorded for monitoring adherence.
 
 6. Automatic Stock Management:
 
 The system automatically:
-    Reduces medicine stock when marked as taken
-    Displays low stock warnings when medicine quantity becomes low
+- Reduces medicine stock when marked as taken
+- Displays low stock warnings when medicine quantity becomes low
 This helps users refill medicines on time.
 
 7. Medicine History and Reports:
@@ -58,9 +58,9 @@ This helps users refill medicines on time.
 All medicine activities are stored in a history file:   <username>_history.txt
 
 This allows users to review:
-Past medicine intake
-Missed doses
-Medicine updates
+- Past medicine intake
+- Missed doses
+- Medicine updates
 
 # Project Structure:
  -------------------
