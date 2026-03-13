@@ -1,11 +1,11 @@
-Medicine Reminder System 
---------------------------
+# Medicine Reminder System 
+ --------------------------
 
 A console-based medicine management system developed in C++ that allows users to create accounts, manage their health profile, schedule medicines, and track medication intake.
 The system stores all data in simple text files, so no external database is required. Each user has their own separate records for profile, medicines, and history.
 
-Key Features:
--------------
+# Key Features:
+ -------------
 
 1. User Account Management:
 
@@ -62,8 +62,8 @@ Past medicine intake
 Missed doses
 Medicine updates
 
-Project Structure:
--------------------
+# Project Structure:
+ -------------------
 
 MedicineReminder/
 │
@@ -78,13 +78,13 @@ MedicineReminder/
 └── Flowchart.txt               # System flow and design notes
 
 
-Compilation:
--------------
+# Compilation:
+ -------------
 
 The program requires a C++17 compatible compiler such as:
-MinGW g++
-Microsoft Visual C++
-Clang
+- MinGW g++
+- Microsoft Visual C++
+- Clang
 
 Compile using:
 g++ -std=c++17 MedicineReminder.cpp -o MedicineReminder.exe
@@ -94,17 +94,17 @@ Navigate to the project directory and run:
 ./MedicineReminder.exe
 
 Follow the on-screen menu to:
-    Create an account
-    Login
-    Add medicines
-    Manage medicine schedules
+  -  Create an account
+  -  Login
+  - Add medicines
+  - Manage medicine schedules
 All user data will be automatically stored in the respective text files.
 
-Advantages of the System:
--------------------------
+# Advantages of the System:
+ -------------------------
 
-No external database required
-Simple file-based storage
-Easy to run on any computer with a C++ compiler
+1. No external database required
+2. Simple file-based storage
+3. Easy to run on any computer with a C++ compiler
 Helps users maintain regular medication habits
 
