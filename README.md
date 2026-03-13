@@ -106,5 +106,5 @@ All user data will be automatically stored in the respective text files.
 1. No external database required
 2. Simple file-based storage
 3. Easy to run on any computer with a C++ compiler
-Helps users maintain regular medication habits
+4. Helps users maintain regular medication habits
 
