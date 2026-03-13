@@ -1,41 +1,103 @@
- # Medicine Reminder System
+Medicine Reminder System 
+--------------------------
 
- Console-based C++ app to help people stay on top of their prescriptions. Each user gets their own account, profile, medicine list, and history. All data lives in plain text files beside the program—no database setup needed.
+A console-based medicine management system developed in C++ that allows users to create accounts, manage their health profile, schedule medicines, and track medication intake.
+The system stores all data in simple text files, so no external database is required. Each user has their own separate records for profile, medicines, and history.
 
- ## Highlights
- - Account login + password change (stored in `accounts.txt`).
- - Personal profile: name, age, gender, conditions, emergency contact.
- - Medicine dashboard: add, edit, delete, search, sort, and view schedules.
- - Track doses as Taken or Missed; stock auto-decrements and warns when low.
- - History and simple reports per user.
+Key Features:
+-------------
 
- ## Project layout
- - `MedicineReminder.cpp` — main source.
- - `MedicineReminder.exe` — prebuilt Windows binary (local build).
- - `accounts.txt` — credential store.
- - `<username>_profile.txt` — profile data.
- - `<username>_medicines.txt` — medicines and stock.
- - `<username>_history.txt` — dose history.
- - `Flowchart.txt` — design/flow notes.
- - `Project Flowchart diagram.png` — quick visual of the flow.
+1. User Account Management
+Users can create an account and log in securely.
+Credentials are stored in accounts.txt.
+Users can also change their password from the Settings menu.
 
- ## Build
- Requires a C++17 compiler (MinGW g++, MSVC, or clang).
+2. Health Profile Management
+Each user maintains a personal health profile including:
+    Age
+    Gender
+    Medical conditions
+Emergency contact information
 
- ```bash
- g++ -std=c++17 MedicineReminder.cpp -o MedicineReminder.exe
- ```
+The profile is saved in:    <username>_profile.txt
 
- ## Run
- From the project folder:
+3. Medicine Management Dashboard
+Users can manage medicines through a dashboard where they can:
+    Add new medicines
+    Edit existing medicines
+    Delete medicines
+    View medicine schedules
+    Search for medicines
+    Sort medicines
+Medicine data is stored in:     <username>_medicines.txt
 
- ```bash
- ./MedicineReminder.exe
- ```
+4. Medicine Schedule Tracking
+Each medicine includes dosage information and scheduled intake times such as Morning, Afternoon, or Night.
+This helps users follow a daily medication routine.
 
- Follow the menu to create an account, add medicines, and manage schedules. Data persists in the text files listed above.
+5. Medicine Status Tracking
+Users can track their medication by marking it as:
+    Taken
+    Missed
+Every action is recorded for monitoring adherence.
 
- ## Why it's simple
- - No external libraries or DB.
- - Works offline.
- - Files are human-readable for quick backup or edits.
+6. Automatic Stock Management
+The system automatically:
+    Reduces medicine stock when marked as taken
+    Displays low stock warnings when medicine quantity becomes low
+This helps users refill medicines on time.
+
+7. Medicine History and Reports
+All medicine activities are stored in a history file:   <username>_history.txt
+
+This allows users to review:
+Past medicine intake
+Missed doses
+Medicine updates
+
+Project Structure:
+-------------------
+
+MedicineReminder/
+│
+├── MedicineReminder.cpp        # Main program source code
+├── MedicineReminder.exe        # Compiled executable
+├── accounts.txt                # Stores user login credentials
+│
+├── <username>_profile.txt      # User health profile
+├── <username>_medicines.txt    # User medicine records
+├── <username>_history.txt      # User medicine history
+│
+└── Flowchart.txt               # System flow and design notes
+
+
+Compilation:
+-------------
+
+The program requires a C++17 compatible compiler such as:
+MinGW g++
+Microsoft Visual C++
+Clang
+
+Compile using:
+g++ -std=c++17 MedicineReminder.cpp -o MedicineReminder.exe
+Running the Program
+
+Navigate to the project directory and run:
+./MedicineReminder.exe
+
+Follow the on-screen menu to:
+    Create an account
+    Login
+    Add medicines
+    Manage medicine schedules
+All user data will be automatically stored in the respective text files.
+
+Advantages of the System:
+-------------------------
+
+No external database required
+Simple file-based storage
+Easy to run on any computer with a C++ compiler
+Helps users maintain regular medication habits
+
