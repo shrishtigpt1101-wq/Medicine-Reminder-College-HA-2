@@ -1,8 +1,10 @@
-# Medicine Reminder System 
- --------------------------
+## 📌 About the Project
 
-A console-based medicine management system developed in C++ that allows users to create accounts, manage their health profile, schedule medicines, and track medication intake.
-The system stores all data in simple text files, so no external database is required. Each user has their own separate records for profile, medicines, and history.
+Medicine Reminder is a console-based application developed using Object-Oriented Programming (OOP) principles in C++. The system is designed to help users manage and track their medication schedules efficiently through a simple terminal interface.
+
+The application allows users to add, view, update, and delete medicine records along with dosage timings, ensuring timely reminders without the need for a graphical interface. It demonstrates strong implementation of core OOP concepts such as classes, objects, encapsulation, and modular design.
+
+This project emphasizes logic-building, structured programming, and efficient data handling in a lightweight, offline environment.
 
 # Key Features:
  -------------
